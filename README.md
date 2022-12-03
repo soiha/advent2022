@@ -1,0 +1,1 @@
+﻿My Advent of Code 2022 solutions implemented in bad, non-idiomatic Rust.
