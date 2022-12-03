@@ -3,13 +3,18 @@ use std::fs;
 
 mod day01;
 mod day02;
+mod day03;
 
 #[allow(dead_code)]
 
 const DEFAULT_INPUT_FILE_DIR: &str = "inputs/";
 
 fn main() {
-    let days: Vec<fn(String) -> String> = vec![crate::day01::day01, crate::day02::day02];
+    let days: Vec<fn(String) -> String> = vec![
+        crate::day01::day01,
+        crate::day02::day02,
+        crate::day03::day03,
+    ];
 
     let args: Vec<String> = env::args().collect();
     if args.len() == 1 {
