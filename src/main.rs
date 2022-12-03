@@ -1,9 +1,9 @@
 use std::env;
 use std::fs;
 
-#[allow(dead_code)]
+mod day01;
 
-// mod day01;
+#[allow(dead_code)]
 
 const DEFAULT_INPUT_FILE_DIR: &str = "inputs/";
 
