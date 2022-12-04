@@ -4,6 +4,7 @@ use std::fs;
 mod day01;
 mod day02;
 mod day03;
+mod day04;
 
 #[allow(dead_code)]
 
@@ -14,6 +15,7 @@ fn main() {
         crate::day01::day01,
         crate::day02::day02,
         crate::day03::day03,
+        crate::day04::day04,
     ];
 
     let args: Vec<String> = env::args().collect();
