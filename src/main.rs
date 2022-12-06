@@ -6,6 +6,7 @@ mod day02;
 mod day03;
 mod day04;
 mod day05;
+mod day06;
 
 #[allow(dead_code)]
 
@@ -18,6 +19,7 @@ fn main() {
         crate::day03::day03,
         crate::day04::day04,
         crate::day05::day05,
+        crate::day06::day06,
     ];
 
     let args: Vec<String> = env::args().collect();
